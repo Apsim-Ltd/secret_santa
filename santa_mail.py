@@ -19,6 +19,7 @@ def santaKid(team_name):
         while santa == kid: 
             kid = random.choice(copy_team)
         result.append({santa: kid})
+        copy_team.remove(kid)
     return result 
 
 
