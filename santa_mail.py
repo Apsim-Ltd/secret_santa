@@ -1,3 +1,7 @@
+"""
+Email Content Credit: Jéremie Tamatave 
+"""
+
 import random 
 import smtplib 
 from email.message import EmailMessage
